@@ -3,16 +3,10 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  overflow: hidden;
-  
-}
-:root {
-  --vh: 100%;
 }
 
-body {
-  height: calc(var(--vh, 1vh) * 100);
-}
+
+/* Avoid content under notch and home bar */
 
 .App {
   text-align: center;
